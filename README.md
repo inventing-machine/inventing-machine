@@ -1,10 +1,10 @@
-# Name of Machine
-Explanation of the Machine
+# Inventing Machine
+An inventing Machine
 <pre>
-  pip install name-of-the-machine
+  pip install inventing-machine
 </pre>
 Then:
 ```Python
   # Python
-  import name_of_the_machine
+  import inventing_machine
 ```

@@ -10,8 +10,8 @@ from . import githf
 import yaml
 
 
-MACHINE_ORGANIZATION_NAME = 'name-of-the-machine-organization'  # or other organization
-PRIVATE_REPO_WITH_TEXT = 'name_of_the_machine'
+MACHINE_ORGANIZATION_NAME = 'inventing-machine'  # or other organization
+PRIVATE_REPO_WITH_TEXT = 'inventing_machine'
 
 try:
     gh = githf.connectto_repo(organization=MACHINE_ORGANIZATION_NAME,
@@ -24,4 +24,4 @@ except Exception as e:
     with open(machina_path, 'r') as yaml_file:
         MACHINE_YAML = yaml_file.read()
 
-NAME_OF_THE_MACHINE = yaml.load(MACHINE_YAML, Loader=yaml.FullLoader)
+INVENTING_MACHINE = yaml.load(MACHINE_YAML, Loader=yaml.FullLoader)
